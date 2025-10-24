@@ -1,0 +1,75 @@
+body {
+    background-color: #000000;
+    font-family: 'Orbitron', sans-serif;
+}
+
+p {
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+h1, h2, h3 {
+    color: yellow;
+    margin-left: 10px;
+}
+
+#sumario {
+    color: #00FFFF;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    color: orange;
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav {
+    background-color: blue;
+    padding: 10px;
+}
+
+.navegacao {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navegacao a {
+    color: yellow;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+
+thead {
+    background-color: #1a1a1a;
+}
+
+tfoot {
+    background-color: #1a1a1a;
+}
+
+/* ---------- Ajustes pedidos ---------- */
+
+/* Experiência, Habilidades, Educação e Idiomas (Terráqueo) em branco */
+#experiencia li,
+#habilidades li,
+#educacao li,
+#educacao ul li,
+#idiomas li:first-child {
+    color: white;
+}

@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(32, 32, 32);
+    color: #ffffff;
+    font-family: 'Arial', 'Times New Roman';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#foto-perfil {
+    width: 180px;
+    height: 180px;
+    border-radius: 60%;
+    border: 2px solid rgb(0, 4, 255);
+    margin: 10px;
+}
+
+main {
+    padding-left:10%;
+    padding-right:10%;
+}
+a {
+    color: #bafafa;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: rgb(58, 58, 206);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+h1, h2 {
+    color: rgb(58, 58, 206);
+}
+
+table {
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #1a1a1a;
+}
+
+footer {
+    text-align: center;
+    color: orange;
+    margin: 20px 0;
+}

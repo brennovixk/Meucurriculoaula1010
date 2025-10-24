@@ -1,0 +1,145 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade1ENG4021</title>
+
+    <!-- Fonte futurista -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="{% static 'curriculo/css/curriculo.css' %}">
+</head>
+<body>
+
+    <nav>
+        <h2>Menu Estelar</h2>
+        <ul class="navegacao">
+            <li><a href="http://www.puc-rio.br">PUC-Rio</a></li>
+            <li><a href="#resumo">Resumo</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#educacao">Educação</a></li>
+            <li><a href="#idiomas">Idiomas</a></li>
+            <li>Versão 2</li>
+            <li><a href="meu-curriculo.html">Meu currículo</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Astronauta Spiff</h1>
+
+        <p><strong>Profissão:</strong> Astronauta Intergalático, Explorador de Mundos Desconhecidos<br>
+        <strong>Base Principal:</strong> Quarto Secreto, Subúrbio da Terra, Sistema Solar<br>
+        <strong>Comunicações:</strong> (55) 21 99999-Spiff<br>
+        <strong>Email:</strong> spiff.the.explorer@galaxymail.com</p>
+
+        <section id="resumo">
+            <h2>Resumo</h2>
+            <div id="sumario">
+                <img src="{% static 'curriculo/img/spiff.jpeg' %}" alt="Foto do astronauta Spiff em ação">
+                <p>Um intrépido e imaginativo astronauta com vasta experiência em exploração espacial solo e em missões críticas a planetas inóspitos. Proficiente em pilotagem de naves espaciais de construção própria, análise de fenômenos alienígenas e resolução criativa de problemas em ambientes extraterrestres. Possui um histórico comprovado de descobertas notáveis e encontros (nem sempre amigáveis) com formas de vida alienígenas diversas.</p>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiência Profissional</h2>
+            <h3>Astronauta Intergalático e Comandante de Missão Solo</h3>
+            <ul>
+                <li>Pilotou e manteve diversas naves espaciais de design exclusivo.</li>
+                <li>Realizou pesquisas e catalogação de espécies alienígenas.</li>
+                <li>Desenvolveu comunicação com formas de vida desconhecidas.</li>
+                <li>Sobreviveu a tempestades cósmicas e campos gravitacionais instáveis.</li>
+                <li>Documentou descobertas como "Smoggles" e "Energia Zum-Zum".</li>
+                <li>Resgates, explorações, combates intergalácticos e mapeamento de sistemas.</li>
+                <li>Vice-campeão intergalático de cara-coroa.</li>
+            </ul>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas Espaciais</h2>
+            <ul>
+                <li>Acrobacias em gravidade zero</li>
+                <li>Comunicação interespécies</li>
+                <li>Construção de bases lunares improvisadas</li>
+                <li>Voo solo de espaçonaves</li>
+                <li>Reparos emergenciais com recursos limitados</li>
+                <li>Sobrevivência em ambientes hostis</li>
+                <li>Propulsores a jato improvisados</li>
+            </ul>
+        </section>
+
+        <section id="educacao">
+            <h2>Educação</h2>
+            <ol>
+                <li>Doutorado em Exploração Interdimensional e Defesa Contra Alienígenas Malignos (Honras Imaginárias)</li>
+                <li>Mestrado em Viagem Hiperespacial (com honras)</li>
+                <li>Universidade Estelar de Calvin — Ciências da Galáxia</li>
+                <li>Academia Estelar de Calvin — Diploma em Engenharia Espacial e Aventuras</li>
+                <li>Currículo incluiu estudos avançados em:</li>
+            </ol>
+            <ul>
+                <li>Teoria da Propulsão a Jato de Papelão</li>
+                <li>Linguística Alienígena Intuitiva</li>
+                <li>Táticas de Fuga e Evasão Escolar Espacial</li>
+                <li>Astronomia de Quintal Avançada</li>
+                <li>Sobrevivência com Lancheiras e Suco de Limão</li>
+            </ul>
+        </section>
+
+        <section id="idiomas">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Terráqueo</li>
+                <li>Glurpiano</li>
+                <li>Dialetos de Saturno</li>
+            </ul>
+        </section>
+
+        <section id="disciplinas">
+            <h2>Disciplinas Cursadas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nome da Disciplina</th>
+                        <th>Ano/Semestre</th>
+                        <th>Professor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ENG4021</td>
+                        <td>Engenharia Espacial Criativa</td>
+                        <td>2025.1</td>
+                        <td>Prof. Calvin</td>
+                    </tr>
+                    <tr>
+                        <td>FIS3003</td>
+                        <td>Física de Buracos Negros</td>
+                        <td>2025.1</td>
+                        <td>Prof. Hobbes</td>
+                    </tr>
+                    <tr>
+                        <td>LIM1010</td>
+                        <td>Sobrevivência Interplanetária</td>
+                        <td>2025.2</td>
+                        <td>Profa. Susie</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Todas as disciplinas aprovadas com distinção</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>"Nenhum alienígena fica para trás... porque eu desintegro todos!"</p>
+    </footer>
+
+</body>
+</html>
